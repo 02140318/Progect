@@ -1,0 +1,168 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+body {
+  background: #fff; }
+
+header, #main, footer {
+  width: 990px;
+  margin: 0 auto; }
+
+#header_wrap header {
+  height: 98px; }
+
+#main_wrap #main {
+  border-top: 2px solid #0000FF;
+  height: 440px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; }
+  #main_wrap #main #title {
+    height: 60px;
+    width: 990px;
+    text-align: center;
+    line-height: 60px; }
+    #main_wrap #main #title h3 {
+      float: left;
+      font-size: 20px;
+      margin-left: 50px; }
+    #main_wrap #main #title p {
+      float: right;
+      font-size: 12px;
+      margin-right: 20px; }
+      #main_wrap #main #title p a {
+        color: #0F88EB; }
+  #main_wrap #main #main_form #regist_left {
+    float: left;
+    height: 380px;
+    width: 340px;
+    margin-left: 100px; }
+    #main_wrap #main #main_form #regist_left div:nth-of-type(1) {
+      position: relative; }
+      #main_wrap #main #main_form #regist_left div:nth-of-type(1) #username1 {
+        width: 292px;
+        height: 40px;
+        margin-bottom: 30px;
+        padding-left: 44px; }
+      #main_wrap #main #main_form #regist_left div:nth-of-type(1) span {
+        position: absolute;
+        top: 12px;
+        left: 10px;
+        height: 24px;
+        width: 24px;
+        display: block;
+        background: url(../images/login2.png) no-repeat left top;
+        background-position: 0 -124px; }
+    #main_wrap #main #main_form #regist_left div:nth-of-type(2) {
+      position: relative; }
+      #main_wrap #main #main_form #regist_left div:nth-of-type(2) #pas1 {
+        width: 292px;
+        height: 40px;
+        margin-bottom: 30px;
+        padding-left: 44px; }
+      #main_wrap #main #main_form #regist_left div:nth-of-type(2) span {
+        position: absolute;
+        top: 12px;
+        left: 10px;
+        height: 24px;
+        width: 24px;
+        display: block;
+        background: url(../images/login2.png) no-repeat left top;
+        background-position: 0 -154px; }
+    #main_wrap #main #main_form #regist_left div:nth-of-type(3) {
+      position: relative; }
+      #main_wrap #main #main_form #regist_left div:nth-of-type(3) #commit {
+        width: 292px;
+        height: 40px;
+        margin-bottom: 30px;
+        padding-left: 44px; }
+      #main_wrap #main #main_form #regist_left div:nth-of-type(3) span {
+        position: absolute;
+        top: 12px;
+        left: 10px;
+        height: 24px;
+        width: 24px;
+        display: block;
+        background: url(../images/login2.png) no-repeat left top;
+        background-position: 0 -154px; }
+    #main_wrap #main #main_form #regist_left #xieyi {
+      margin-bottom: 12px;
+      height: 16px; }
+      #main_wrap #main #main_form #regist_left #xieyi #check {
+        float: left; }
+      #main_wrap #main #main_form #regist_left #xieyi p {
+        float: left;
+        font-size: 12px; }
+        #main_wrap #main #main_form #regist_left #xieyi p a {
+          color: #0F88EB; }
+    #main_wrap #main #main_form #regist_left #now {
+      height: 36px;
+      margin-top: 10px; }
+      #main_wrap #main #main_form #regist_left #now #regist {
+        height: 36px;
+        width: 340px;
+        background: #0F88EB; }
+    #main_wrap #main #main_form #regist_left #form_bottom {
+      margin-top: 22px; }
+      #main_wrap #main #main_form #regist_left #form_bottom a {
+        height: 40px;
+        width: 40px;
+        display: block;
+        float: left;
+        margin-right: 6px;
+        background: url(../images/login1.png) no-repeat left top; }
+        #main_wrap #main #main_form #regist_left #form_bottom a:nth-of-type(1) {
+          background-position: 0 0; }
+        #main_wrap #main #main_form #regist_left #form_bottom a:nth-of-type(2) {
+          background-position: -47px 0; }
+        #main_wrap #main #main_form #regist_left #form_bottom a:nth-of-type(3) {
+          background-position: -96px 0; }
+        #main_wrap #main #main_form #regist_left #form_bottom a:nth-of-type(4) {
+          background-position: -144px 0; }
+        #main_wrap #main #main_form #regist_left #form_bottom a:nth-of-type(5) {
+          background-position: -190px 0; }
+        #main_wrap #main #main_form #regist_left #form_bottom a:nth-of-type(6) {
+          background-position: -295px 0; }
+  #main_wrap #main #main_form #regist_right {
+    float: left;
+    height: 380px;
+    width: 550px;
+    position: relative; }
+    #main_wrap #main #main_form #regist_right img {
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+
+#footer_wrap footer {
+  height: 65px;
+  text-align: center; }
+  #footer_wrap footer a {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 12px; }
+  #footer_wrap footer p {
+    font-size: 12px; }

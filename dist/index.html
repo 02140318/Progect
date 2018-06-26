@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/main.css" />
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 		
@@ -11,6 +12,31 @@
 
 	</head>
 	<body>
+		<!--楼梯-->
+		<div id="floorNav">
+			<ul>
+				<li>1F<span>服饰</span></li>
+				<li>2F<span>美妆</span></li>
+				<li>3F<span>手机</span></li>
+				<li>4F<span>家电</span></li>
+				<li>5F<span>数码</span></li>
+				<li>6F<span>运动</span></li>
+				<li>7F<span>居家</span></li>
+				<li>8F<span>母婴</span></li>
+				<li>9F<span>食品</span></li>
+				<li>10F<span>图书</span></li>
+				<li>11F<span>服务</span></li>
+				<li>TOP</li>
+			</ul>
+		</div>
+		<!--侧边栏-->
+		<div id="side">
+			<img src="images/doctor.png" alt="" />
+			<a href=""></a>
+			<a href=""><i>0</i></a>
+			<a href=""></a>
+			<a href=""></a>
+		</div>
 		<!--top_message----------------------------->
 		<div id="top_message_wrap">
 			
@@ -38,8 +64,8 @@
 			</div>
 			<div id="top_nav_right">
 				<ul> 
-					<li><a href="login.html">请登录</a>　
-						<a href="regist.html">注册</a>|
+					<li><a href="html/login.html">请登录</a>　
+						<a href="html/regist.html">注册</a>|
 					</li>
 					<li><a href="">我的订单</a>|</li>
 					<li><a href="">我的1药网</a>
@@ -102,10 +128,10 @@
 					<img src="images/weixin.jpg" alt="" />
 				</div>
 				<div id="shop_cart">
-					<div id="cart"><a href=""></a></div>
+					<div id="cart"><a href="html/cart.html"></a></div>
 					<div id="cart_center"><span>购物车</span></div>
 					<div id="cart_right"><em>&lt;</em></div>
-					<strong>1</strong>
+					<div id="cart_num"><span>1</span></div>
 				</div>
 			</div>
 		</header>
@@ -147,37 +173,919 @@
 	<!--banner------------------------------------->
 	<div id="banner_wrap">
 		<div id="banner">
-			<div id="banner_list"></div>
-			
-			<div id="banner_pic">
+			<div id="banner_list">
 				<ul>
-					<li style="background: url(images/banner1.jpg);">
+					<li>
+						<a href="html/productslist.html">中西药品</a>
+						<div id="category">
+							<div id="category_firstli">
+								<dl>
+									<dt><a href="">男科疾病</a></dt>
+									<dd>
+										<em><a href="">阳痿早泄</a></em>|
+										<em><a href="">男性不育症</a></em>|
+										<em><a href="">前列腺炎</a></em>|
+										<em><a href="">肾病</a></em>|
+										<em><a href="">补肾</a></em>
+									</dd>
+								</dl>
+							</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+						</div>
+							
+					</li>
+					<li>
+						<a href="">滋补保健</a>
+							
 						
 					</li>
-					<li style="background: url(images/banner2.jpg);">
-						
+					<li>
+						<a href="">维生素钙</a>	
 					</li>
-					<li style="background: url(images/banner3.jpg);">
-						
+					<li>
+						<a href="">隐形眼镜</a>
 					</li>
-					<li style="background: url(images/banner4.jpg);">
-						
+					<li>
+						<a href="">医疗器械</a>
 					</li>
-					<li style="background: url(images/banner5.jpg);">
-						
+					<li>
+						<a href="">药妆呵护</a>
 					</li>
-					<li style="background: url(images/banner6.jpg);">
-						
+					<li>
+						<a href="">成人用品</a>
 					</li>
-
+					<li>
+						<a href="">母婴专区</a>
+					</li>
+					<li>
+						<a href="">休闲零食</a>
+					</li>
+					<li>
+						<a href="">体检、口腔诊疗</a>
+					</li>
 				</ul>
 			</div>
 			
-			<div id="banner_slide"></div>
+			<div id="banner_pic">
+				<div class="pic">
+					<ul>
+					<li style="background: url(images/banner1.jpg);">			
+					</li>
+					<li style="background: url(images/banner2.jpg);">					
+					</li>
+					<li style="background: url(images/banner3.jpg);">						
+					</li>
+					<li style="background: url(images/banner4.jpg);">		
+					</li>
+					<li style="background: url(images/banner5.jpg);">	
+					</li>
+					<li style="background: url(images/banner6.jpg);">	
+					</li>
+				</ul>
+				</div>
+				<div class="nav">
+				<ul class="select">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+
+				
+			</div>
+			
+			
+			<div id="banner_slide">
+				<div id="slide_box">
+					<div id="slide_menu">
+						<div>在线咨询</div>
+						<div>医生问诊</div>
+					</div>
+					<div id="slide_box">
+						<div>
+							<ul>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+								<li><a href="">消化科</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div id="slide_hidebox">
+						
+					</div>
+					
+					
+				</div>
+				
+				<div id="slide_banner">
+					<img src="images/slide_pic.jpg" alt="" />
+				</div>
+				
+				<div id="slide_server">
+					<div id="server_title">
+						<div>优质服务</div>
+						<div>公告</div>
+					</div>
+					<div id="server_pic">
+						<div id="promise">
+							<div>
+								<span><a href=""></a></span>
+								<p><a href="">正品保障</a></p>
+							</div>
+							<div>
+								<span><a href=""></a></span>
+								<p><a href="">品牌授权</a></p>
+							</div>
+							<div>
+								<span><a href=""></a></span>
+								<p><a href="">药监认证</a></p>
+							</div>
+							<div>
+								<span><a href=""></a></span>
+								<p><a href="">满79包邮</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!--main_pic------------------>
+	<div id="main_pic_wrap">
+		<div id="main_pic">
+			<a href=""><img src="images/main_pic5.png" alt="" /></a>
+			<a href=""><img src="images/main_pic1.jpg" alt="" /></a>
+			<a href=""><img src="images/main_pic2.jpg" alt="" /></a>
+			<a href=""><img src="images/main_pic3.jpg" alt="" /></a>
+			<a href=""><img src="images/main_pic4.jpg" alt="" /></a>
+		</div>
+	</div>
+	
+	<div id="main_pic1_wrap">
+		<div id="main_pic1">
+			<a href="">
+				<img src="images/main_pic.jpg" alt="" />
+			</a>
 		</div>
 	</div>
 	
 	
+	<!--main----------------------------------------------------------->
+	<div id="content">
+		<ul>
+			<li>
+				<div id="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">1F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+		</ul>
+	</div>
+	
+	
+	<!--2f------------------------------------>
+	<!--main----------------------------------------------------------->
+	<!--<div id="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">2F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--3f---------------------------------------->
+	<!--main----------------------------------------------------------->
+	<div id="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">3F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--4f-------------------------------------------------------->
+	<!--main----------------------------------------------------------->
+	<div id="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">4F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--5f----------------------------------------------->
+	<!--main----------------------------------------------------------->
+	<div id="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">5F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	
+	<!--footer_friendlylink--------------------------------------------->
+	<div id="footer_friendlylink_wrap">
+		<div id="footer_friendlylink">
+			<div>
+				<a href="">品牌旗舰店</a>
+				<a href="">友情链接</a>
+			</div>
+			<div>
+				<img src="images/img_btm_logo.png" alt="" />
+				<!--<div id="friendly_link">
+				<ul>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+					<li><a href="">凤凰中医</a></li>
+				</ul>
+			</div>-->
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div id="footer_commit-wrap">
+		<div id="footer_commit">
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+		</div>
+	</div>
+	
+	<!--footer_app_wrap------------------------------->
+	<div id="footer_app_wrap">
+		<div id="footer_app">
+			<div id="footer_app1">
+					<div></div>
+				<div>
+					<ul>
+						<li><h3>1药网客户端</h3></li>
+						<li><p>APP专享价更优惠</p></li>
+						<li><p>购物满69满免邮</p></li>
+						<li><p>超低移动专享价</p></li>
+						<li><p>药监认证，正品保障</p></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer_app2">
+					<div></div>
+				<div>
+					<ul>
+						<li><h3>1药网客户端</h3></li>
+						<li><p>APP专享价更优惠</p></li>
+						<li><p>购物满69满免邮</p></li>
+						<li><p>超低移动专享价</p></li>
+						<li><p>药监认证，正品保障</p></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer_app3">
+					<div></div>
+				<div>
+					<ul>
+						<li><h3>1药网客户端</h3></li>
+						<li><p>APP专享价更优惠</p></li>
+						<li><p>购物满69满免邮</p></li>
+						<li><p>超低移动专享价</p></li>
+						<li><p>药监认证，正品保障</p></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!--footer_list-------------------------------->
+	<div id="footer_message_wrap">
+		<div id="footer_message">
+			<div id="footer_list">
+				<div id="footer_list1">
+					<ul>
+						<li><h4>新手入门</h4></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">新会员注册</a></li>
+						<li><a href="">用户登录</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+				</div>
+				<div id="footer_list2">
+					<ul>
+						<li><h4>新手入门</h4></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">新会员注册</a></li>
+						<li><a href="">用户登录</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+				</div>
+				<div id="footer_list3">
+					<ul>
+						<li><h4>新手入门</h4></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">新会员注册</a></li>
+						<li><a href="">用户登录</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+				</div>
+				<div id="footer_list4">
+					<ul>
+						<li><h4>新手入门</h4></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">新会员注册</a></li>
+						<li><a href="">用户登录</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+				</div>
+				<div id="footer_list5">
+					<ul>
+						<li><h4>新手入门</h4></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">新会员注册</a></li>
+						<li><a href="">用户登录</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+				</div>
+				<div id="footer_list6">
+					<ul>
+						<li><h4>新手入门</h4></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">新会员注册</a></li>
+						<li><a href="">用户登录</a></li>
+						<li><a href="">找回密码</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer_phone">
+				<p>400-007-0958</p>
+				<p>
+					周一到周日 09:00-21:00
+					<br>
+					（收取市话费）
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--footer---------------------------------->
+	<div id="footer_wrap">
+		<footer>
+			<p>
+				<a href="">关于111集团</a>|
+				<a href="">关于1药网</a>|
+				<a href="">诚征英才</a>|
+				<a href="">直营实体药房</a>|
+				<a href="">互联网药品信息服务资格证</a>|
+				<a href="">互联网药品交易资格证：粤C20150007</a>
+			</p>
+			<p>
+				<a href="">连锁营业执照</a>|
+				<a href="">药品经营许可证</a>|
+				<a href="">医疗器械许可证</a>|
+				<a href="">食品经营许可证</a>|
+				<a href="">GSP证书</a>|
+				<a href="">ICP粤B2-20150066</a>
+			</p>
+			<div id="internet">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+		</footer>
+	</div>
+	
+	<div id="bottom_wrap">
+		<div id="bottom">
+			<p>
+				<a href="">1药网网上药店</a>
+				，国家药监局认证通过的合法网上药店，中国医药电子商务行业的开拓者领跑者。
+				<a href="">粤ICP备12015869号-1</a><br>
+				公司名称：广东壹号大药房连锁有限公司 公司地址：广东省广州市越秀区共和西路1号2层 联系电话：020-31067218
+			</p>
+			<p></p>
+			<div>
+				Copyright (C) 2010-2015 1药网版权所有
+				<a href="">公安备案号 44010402000743</a>
+			</div>
+		</div>
+	</div>
 	
 	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

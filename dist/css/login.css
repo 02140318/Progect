@@ -1,0 +1,193 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+body {
+  background: #fff; }
+
+header, #main, footer {
+  width: 990px;
+  margin: 0 auto; }
+
+#header_wrap header {
+  height: 98px; }
+
+#main_wrap #main {
+  height: 450px; }
+  #main_wrap #main #login_pic {
+    float: left;
+    width: 560px;
+    background: pink; }
+  #main_wrap #main #login_from {
+    float: left;
+    width: 430px;
+    height: 450px; }
+    #main_wrap #main #login_from #title {
+      text-align: center;
+      margin-top: 5px;
+      width: 428px;
+      height: 46px;
+      border-bottom: 1px solid #ddd;
+      line-height: 46px; }
+      #main_wrap #main #login_from #title a:nth-of-type(1) {
+        margin-right: 20px; }
+      #main_wrap #main #login_from #title a:nth-of-type(2) {
+        margin-left: 20px; }
+  #main_wrap #main #welcome {
+    height: 374px;
+    width: 370px;
+    margin-left: 30px; }
+    #main_wrap #main #welcome #from_top strong {
+      line-height: 25px;
+      margin: 0 10px;
+      font-weight: 100; }
+      #main_wrap #main #welcome #from_top strong:nth-of-type(2) {
+        float: right;
+        font-size: 12px; }
+    #main_wrap #main #welcome #form form #txt1 {
+      margin-top: 16px;
+      margin-bottom: 20px;
+      position: relative; }
+      #main_wrap #main #welcome #form form #txt1 span {
+        position: absolute;
+        top: 10px;
+        height: 24px;
+        width: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+        background: url(../images/login2.png) no-repeat left top;
+        background-position: 0 -123px; }
+      #main_wrap #main #welcome #form form #txt1 #username {
+        width: 340px;
+        height: 40px;
+        padding-left: 40px; }
+    #main_wrap #main #welcome #form form #txt2 {
+      margin-top: 16px;
+      margin-bottom: 20px;
+      position: relative; }
+      #main_wrap #main #welcome #form form #txt2 span {
+        position: absolute;
+        top: 10px;
+        height: 24px;
+        width: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+        background: url(../images/login2.png) no-repeat left top;
+        background-position: 0 -154px; }
+      #main_wrap #main #welcome #form form #txt2 #pas {
+        width: 340px;
+        height: 40px;
+        padding-left: 40px; }
+      #main_wrap #main #welcome #form form #txt2 a {
+        float: right;
+        font-size: 12px; }
+    #main_wrap #main #welcome #form form #txt3 {
+      position: relative; }
+      #main_wrap #main #welcome #form form #txt3 #check {
+        height: 40px;
+        width: 175px; }
+      #main_wrap #main #welcome #form form #txt3 span {
+        height: 40px;
+        width: 100px;
+        display: block;
+        position: absolute;
+        top: 2px;
+        left: 200px;
+        border: 1px solid #ddd;
+        background: url(../images/check.jpg) no-repeat; }
+      #main_wrap #main #welcome #form form #txt3 a {
+        float: right;
+        line-height: 40px;
+        color: #0166FE;
+        font-size: 12px; }
+    #main_wrap #main #welcome #form form #freeweek {
+      margin-top: 15px; }
+      #main_wrap #main #welcome #form form #freeweek b {
+        font-style: none; }
+    #main_wrap #main #welcome #form form #btn {
+      width: 326px;
+      height: 40px;
+      margin-top: 12px;
+      background: #0F88EB;
+      cursor: pointer;
+      margin-bottom: 15px; }
+    #main_wrap #main #welcome #form form #more p {
+      font-size: 12px; }
+    #main_wrap #main #welcome #form form #more a {
+      background: url(../images/login1.png) no-repeat left top;
+      width: 40px;
+      height: 40px;
+      display: block;
+      float: left;
+      margin-right: 16px; }
+      #main_wrap #main #welcome #form form #more a:nth-of-type(1) {
+        background-position: -295px -52px; }
+      #main_wrap #main #welcome #form form #more a:nth-of-type(2) {
+        background-position: -48px -52px; }
+      #main_wrap #main #welcome #form form #more a:nth-of-type(3) {
+        background-position: -96px -52px; }
+    #main_wrap #main #welcome #form form #more #moreinter {
+      position: relative; }
+      #main_wrap #main #welcome #form form #more #moreinter span {
+        font-size: 14px;
+        float: left;
+        position: relative;
+        margin-top: 10px;
+        float: right; }
+        #main_wrap #main #welcome #form form #more #moreinter span:hover p {
+          background-position: -37px -9px; }
+        #main_wrap #main #welcome #form form #more #moreinter span:hover #hide {
+          display: block; }
+        #main_wrap #main #welcome #form form #more #moreinter span p {
+          float: left;
+          height: 14px;
+          width: 14px;
+          background: url(../images/login_sj.png) no-repeat center;
+          background-position: -7px -9px;
+          position: absolute;
+          top: 3px;
+          right: -14px; }
+        #main_wrap #main #welcome #form form #more #moreinter span #hid {
+          height: 60px;
+          width: 340px;
+          background: red;
+          position: absolute;
+          top: 30px;
+          right: 30px;
+          display: none; }
+
+#footer_wrap footer {
+  height: 65px;
+  text-align: center; }
+  #footer_wrap footer a {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 12px; }
+  #footer_wrap footer p {
+    font-size: 12px; }
