@@ -1,0 +1,178 @@
+.main1 {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden; }
+  .main1 #main-left {
+    float: left;
+    width: 405px;
+    height: 450px;
+    border: 1px solid #fff;
+    position: relative; }
+    .main1 #main-left #midpic {
+      height: 402px;
+      position: absolute; }
+      .main1 #main-left #midpic #zoom {
+        width: 200px;
+        height: 200px;
+        background: yellow;
+        opacity: .3;
+        position: absolute;
+        cursor: move;
+        display: none; }
+      .main1 #main-left #midpic img {
+        width: 402px;
+        height: 402px; }
+    .main1 #main-left #smallpic {
+      position: absolute;
+      left: 0;
+      top: 390px;
+      width: 402px;
+      height: 70px;
+      padding-top: 8px;
+      background: #00BBD7; }
+      .main1 #main-left #smallpic li {
+        float: left;
+        text-align: center;
+        justify-content: space-around;
+        border: 1px solid #CECECE;
+        padding: 2px;
+        margin-right: 8px; }
+        .main1 #main-left #smallpic li img {
+          width: 65px;
+          height: 65px; }
+    .main1 #main-left #bigpic {
+      position: absolute;
+      left: 402px;
+      top: 0;
+      width: 402px;
+      height: 402px;
+      z-index: 900;
+      border: 1px solid #CECECE;
+      overflow: hidden;
+      display: none; }
+      .main1 #main-left #bigpic img {
+        width: 804px;
+        height: 804px;
+        position: absolute; }
+  .main1 .main-right {
+    width: 600px;
+    height: 630px;
+    float: right;
+    text-align: center;
+    margin-left: 50px; }
+    .main1 .main-right .title {
+      margin: 20px 0 10px 0;
+      font-size: 18px;
+      color: #222;
+      padding-right: 40px;
+      background: #fff; }
+      .main1 .main-right .title span:nth-of-type(1) {
+        color: #FA4B9B; }
+      .main1 .main-right .title a {
+        color: #666; }
+        .main1 .main-right .title a:hover {
+          text-decoration: none;
+          color: #FA4B9B; }
+    .main1 .main-right .title2 {
+      margin-top: 20px;
+      margin-bottom: 20xp; }
+      .main1 .main-right .title2 a {
+        color: #FA50A2;
+        font-size: 14px;
+        line-height: 20px; }
+    .main1 .main-right .price-box {
+      padding: 40px 30px;
+      background: #fff; }
+      .main1 .main-right .price-box .price-tit span:nth-of-type(1) {
+        font-size: 16px;
+        color: #666;
+        margin-right: 30px; }
+      .main1 .main-right .price-box .price-tit span:nth-of-type(2) {
+        font-size: 20px;
+        color: #f43499; }
+        .main1 .main-right .price-box .price-tit span:nth-of-type(2) em {
+          font-size: 22px;
+          font-style: normal; }
+      .main1 .main-right .price-box .price-tit span:nth-of-type(3) {
+        padding: 0 20px 0 10px;
+        color: gray;
+        font-size: 12px; }
+        .main1 .main-right .price-box .price-tit span:nth-of-type(3) i {
+          font-size: 14px;
+          font-style: normal;
+          text-decoration: line-through; }
+      .main1 .main-right .price-box .youhui {
+        margin-top: 10px; }
+        .main1 .main-right .price-box .youhui span:nth-of-type(1) {
+          font-size: 16px;
+          color: #666;
+          margin-right: 30px;
+          line-height: 28px; }
+        .main1 .main-right .price-box .youhui span:nth-of-type(2) {
+          color: #fff;
+          height: 21px;
+          padding: 0 5px;
+          text-align: center;
+          line-height: 20px;
+          background: #ff8e68; }
+        .main1 .main-right .price-box .youhui span:nth-of-type(3) {
+          color: #ff3b93;
+          margin-top: 3px;
+          margin-bottom: 12px;
+          font-size: 12px; }
+      .main1 .main-right .price-box .lingquan {
+        margin: 3px 0 0 65px; }
+        .main1 .main-right .price-box .lingquan span:nth-of-type(1) {
+          height: 21px;
+          line-height: 21px;
+          text-align: center;
+          background: #fc6c80;
+          color: #fff;
+          padding: 2px 5px;
+          font-size: 12px; }
+        .main1 .main-right .price-box .lingquan span:nth-of-type(2) {
+          width: 100px;
+          height: 21px;
+          line-height: 21px;
+          text-align: center;
+          margin-left: 8px;
+          margin-bottom: 10px;
+          color: #ff3b93; }
+    .main1 .main-right .num p {
+      float: left;
+      font-size: 16px;
+      padding-left: 15px;
+      color: gray;
+      line-height: 25px;
+      margin-right: 30px; }
+    .main1 .main-right .num > div {
+      float: left;
+      border: 1px solid #666; }
+      .main1 .main-right .num > div > input {
+        border: none;
+        width: 24px;
+        height: 28px;
+        float: left; }
+      .main1 .main-right .num > div strong {
+        float: left;
+        background: #fff;
+        display: block;
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        border-left: 1px solid #CECECE;
+        border-right: 1px solid #CECECE; }
+    .main1 .main-right .add {
+      width: 250px;
+      height: 50px;
+      background: #fff;
+      margin-top: 100px;
+      margin-left: 200px;
+      font-size: 40px;
+      color: #D43F3A;
+      text-align: center;
+      line-height: 50px;
+      border-radius: 25px;
+      cursor: pointer; }

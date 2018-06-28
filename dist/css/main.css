@@ -17,6 +17,8 @@
         color: #fff; }
       #banner_wrap #banner #banner_list ul li:nth-of-type(1) {
         position: relative; }
+        #banner_wrap #banner #banner_list ul li:nth-of-type(1):hover #category {
+          display: block; }
         #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category {
           display: none;
           position: absolute;
@@ -24,31 +26,34 @@
           top: 0;
           height: 400px;
           width: 1009px;
-          background: pink;
+          background: #fff;
           z-index: 1; }
           #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(1) {
             float: left;
             width: 252px;
-            height: 400px;
-            background: red; }
-            #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(1) #category_firstli dt a {
-              background: blue;
-              color: black; }
+            height: 400px; }
+            #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(1) #category1 {
+              margin-bottom: 10px; }
+              #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(1) #category1 dl dt {
+                background: blue;
+                color: black; }
+              #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(1) #category1 dl dd srtong {
+                font-weight: 100; }
           #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(2) {
             float: left;
             width: 252px;
-            height: 400px;
-            background: green; }
+            height: 400px; }
           #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(3) {
             float: left;
             width: 252px;
-            height: 400px;
-            background: gold; }
+            height: 400px; }
           #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(4) {
             float: left;
             width: 252px;
-            height: 400px;
-            background: blue; }
+            height: 400px; }
+            #banner_wrap #banner #banner_list ul li:nth-of-type(1) #category div:nth-of-type(4) img {
+              width: 252px;
+              height: 200px; }
   #banner_wrap #banner #banner_pic {
     float: left;
     width: 750px;
@@ -199,23 +204,23 @@
 #main_pic1_wrap {
   height: 90px; }
 
-#main_wrap {
+.main_wrap {
   height: 487px;
   margin-top: 32px; }
-  #main_wrap #main #main_left {
+  .main_wrap #main #main_left {
     float: left;
     width: 180px;
     height: 487px; }
-    #main_wrap #main #main_left #main_left_top {
+    .main_wrap #main #main_left #main_left_top {
       height: 85px;
       line-height: 85px;
       background: #92c4ff;
       color: #fff;
       padding-left: 20px;
       font-size: 20px; }
-    #main_wrap #main #main_left .main_left_list1 {
+    .main_wrap #main #main_left .main_left_list1 {
       border-left: 1px solid #D5D6E2; }
-      #main_wrap #main #main_left .main_left_list1 li {
+      .main_wrap #main #main_left .main_left_list1 li {
         float: left;
         width: 89px;
         height: 50px;
@@ -224,9 +229,9 @@
         text-align: center;
         line-height: 50px;
         font-size: 14px; }
-        #main_wrap #main #main_left .main_left_list1 li a:hover {
+        .main_wrap #main #main_left .main_left_list1 li a:hover {
           color: red; }
-    #main_wrap #main #main_left .main_left_list2 li {
+    .main_wrap #main #main_left .main_left_list2 li {
       float: left;
       width: 89px;
       height: 50px;
@@ -235,61 +240,61 @@
       text-align: center;
       line-height: 50px;
       font-size: 14px; }
-      #main_wrap #main #main_left .main_left_list2 li a:hover {
+      .main_wrap #main #main_left .main_left_list2 li a:hover {
         color: red; }
-  #main_wrap #main #main_right {
+  .main_wrap #main #main_right {
     float: left;
     width: 1009px;
     height: 487px; }
-    #main_wrap #main #main_right .main_right_top {
+    .main_wrap #main #main_right .main_right_top {
       height: 284px; }
-      #main_wrap #main #main_right .main_right_top .main_right_top_banner {
+      .main_wrap #main #main_right .main_right_top .main_right_top_banner {
         float: left;
         height: 284px;
         width: 605px;
         position: relative; }
-        #main_wrap #main #main_right .main_right_top .main_right_top_banner .main_list {
+        .main_wrap #main #main_right .main_right_top .main_right_top_banner .main_list {
           width: 605px;
           height: 284px;
           overflow: hidden; }
-          #main_wrap #main #main_right .main_right_top .main_right_top_banner .main_list ul li {
+          .main_wrap #main #main_right .main_right_top .main_right_top_banner .main_list ul li {
             height: 284px;
             width: 605px;
             position: relative; }
-        #main_wrap #main #main_right .main_right_top .main_right_top_banner .main_nav {
+        .main_wrap #main #main_right .main_right_top .main_right_top_banner .main_nav {
           position: absolute;
           right: 20px;
           bottom: 20px; }
-          #main_wrap #main #main_right .main_right_top .main_right_top_banner .main_nav ul li {
+          .main_wrap #main #main_right .main_right_top .main_right_top_banner .main_nav ul li {
             width: 10px;
             height: 10px;
             border: 1px solid #fff;
             float: left;
             margin-left: 5px; }
-            #main_wrap #main #main_right .main_right_top .main_right_top_banner .main_nav ul li.select1 {
+            .main_wrap #main #main_right .main_right_top .main_right_top_banner .main_nav ul li.select1 {
               background: #fff; }
-      #main_wrap #main #main_right .main_right_top .main_right_top_pic {
+      .main_wrap #main #main_right .main_right_top .main_right_top_pic {
         float: left;
         width: 403px;
         height: 284px;
         background: gold; }
-        #main_wrap #main #main_right .main_right_top .main_right_top_pic img {
+        .main_wrap #main #main_right .main_right_top .main_right_top_pic img {
           float: left; }
-    #main_wrap #main #main_right .main_right_bottom dl {
+    .main_wrap #main #main_right .main_right_bottom dl {
       float: left; }
-    #main_wrap #main #main_right .main_right_bottom dl {
+    .main_wrap #main #main_right .main_right_bottom dl {
       height: 201px;
       width: 200px;
       text-align: center;
       border-right: 1px solid #ddd;
       border-bottom: 1px solid #ddd; }
-      #main_wrap #main #main_right .main_right_bottom dl dt {
+      .main_wrap #main #main_right .main_right_bottom dl dt {
         padding-top: 25px;
         margin-left: 50px;
         margin-bottom: 25px; }
-      #main_wrap #main #main_right .main_right_bottom dl dd {
+      .main_wrap #main #main_right .main_right_bottom dl dd {
         font-size: 16px; }
-        #main_wrap #main #main_right .main_right_bottom dl dd:nth-of-type(2) {
+        .main_wrap #main #main_right .main_right_bottom dl dd:nth-of-type(2) {
           color: red; }
 
 #floorNav {

@@ -15,16 +15,16 @@
 		<!--楼梯-->
 		<div id="floorNav">
 			<ul>
-				<li>1F<span>服饰</span></li>
-				<li>2F<span>美妆</span></li>
-				<li>3F<span>手机</span></li>
-				<li>4F<span>家电</span></li>
-				<li>5F<span>数码</span></li>
-				<li>6F<span>运动</span></li>
-				<li>7F<span>居家</span></li>
-				<li>8F<span>母婴</span></li>
-				<li>9F<span>食品</span></li>
-				<li>10F<span>图书</span></li>
+				<li>1F<span>家庭常备药</span></li>
+				<li>2F<span>专科用药</span></li>
+				<li>3F<span>滋补保健</span></li>
+				<li>4F<span>维生素钙</span></li>
+				<li>5F<span>医疗器械</span></li>
+				<li>6F<span>隐形眼镜</span></li>
+				<li>7F<span>成人用品</span></li>
+				<li>8F<span>药妆个护</span></li>
+				<li>9F<span>母婴用品</span></li>
+				<li>10F<span>健康电器</span></li>
 				<li>11F<span>服务</span></li>
 				<li>TOP</li>
 			</ul>
@@ -35,7 +35,7 @@
 			<a href=""></a>
 			<a href=""><i>0</i></a>
 			<a href=""></a>
-			<a href=""></a>
+			<a id="side_to_top"></a>
 		</div>
 		<!--top_message----------------------------->
 		<div id="top_message_wrap">
@@ -108,8 +108,17 @@
 			
 			<div id="header_center">
 				<div>
-					<input type="text" />
+					<input class="search_goods" type="text" />
 					<input type="button" />
+					<div id="search_list">
+						<ul>
+						<!--<li><a href="">111</a></li>
+						<li><a href="">222</a></li>
+						<li><a href="">333</a></li>
+						<li><a href="">444</a></li>-->
+					</ul>
+					</div>
+					
 				</div>
 				<div>
 					<a href="">健康优享</a>
@@ -178,21 +187,162 @@
 					<li>
 						<a href="html/productslist.html">中西药品</a>
 						<div id="category">
-							<div id="category_firstli">
+							<div id="category1">
 								<dl>
-									<dt><a href="">男科疾病</a></dt>
+									<dt><b>男科疾病</b></dt>
 									<dd>
-										<em><a href="">阳痿早泄</a></em>|
-										<em><a href="">男性不育症</a></em>|
-										<em><a href="">前列腺炎</a></em>|
-										<em><a href="">肾病</a></em>|
-										<em><a href="">补肾</a></em>
+										<strong>阳痿早泄</strong>|
+										<strong>男性不育症</strong>|
+										<strong>前列腺炎</strong>|
+										<strong>肾病</strong>|
+										<strong>补肾</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>滋补调养</b></dt>
+									<dd>
+										<strong>补肾强身</strong>|
+										<strong> 前列腺养护</strong>|
+										<strong>解酒护肝 </strong>|
+										<strong>缓解疲劳</strong>|
+										<strong>增肌强身</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>美丽女人</b></dt>
+									<dd>
+										<strong>减肥瘦身</strong>|
+										<strong>润肠通便</strong>|
+										<strong>补血补气 </strong>|
+										<strong>美白祛斑</strong>|
+										<strong>调经养颜</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>神经系统</b></dt>
+									<dd>
+										<strong>抑郁症</strong>|
+										<strong>精神分裂症</strong>|
+										<strong>老年痴呆</strong>|
+										<strong>中风</strong>|
+										<strong>神经性疼痛</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>内分泌科</b></dt>
+									<dd>
+										<strong>糖尿病</strong>|
+										<strong>甲状腺疾病</strong>|
+										
 									</dd>
 								</dl>
 							</div>
-							<div>2</div>
-							<div>3</div>
-							<div>4</div>
+							<div id="category2">
+								<dl>
+									<dt><b>男科疾病</b></dt>
+									<dd>
+										<strong>阳痿早泄</strong>|
+										<strong>男性不育症</strong>|
+										<strong>前列腺炎</strong>|
+										<strong>肾病</strong>|
+										<strong>补肾</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>滋补调养</b></dt>
+									<dd>
+										<strong>补肾强身</strong>|
+										<strong> 前列腺养护</strong>|
+										<strong>解酒护肝 </strong>|
+										<strong>缓解疲劳</strong>|
+										<strong>增肌强身</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>美丽女人</b></dt>
+									<dd>
+										<strong>减肥瘦身</strong>|
+										<strong>润肠通便</strong>|
+										<strong>补血补气 </strong>|
+										<strong>美白祛斑</strong>|
+										<strong>调经养颜</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>神经系统</b></dt>
+									<dd>
+										<strong>抑郁症</strong>|
+										<strong>精神分裂症</strong>|
+										<strong>老年痴呆</strong>|
+										<strong>中风</strong>|
+										<strong>神经性疼痛</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>内分泌科</b></dt>
+									<dd>
+										<strong>糖尿病</strong>|
+										<strong>甲状腺疾病</strong>|
+										
+									</dd>
+								</dl>
+								
+							</div>
+							<div id="category3">
+								<dl>
+									<dt><b>男科疾病</b></dt>
+									<dd>
+										<strong>阳痿早泄</strong>|
+										<strong>男性不育症</strong>|
+										<strong>前列腺炎</strong>|
+										<strong>肾病</strong>|
+										<strong>补肾</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>滋补调养</b></dt>
+									<dd>
+										<strong>补肾强身</strong>|
+										<strong> 前列腺养护</strong>|
+										<strong>解酒护肝 </strong>|
+										<strong>缓解疲劳</strong>|
+										<strong>增肌强身</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>美丽女人</b></dt>
+									<dd>
+										<strong>减肥瘦身</strong>|
+										<strong>润肠通便</strong>|
+										<strong>补血补气 </strong>|
+										<strong>美白祛斑</strong>|
+										<strong>调经养颜</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>神经系统</b></dt>
+									<dd>
+										<strong>抑郁症</strong>|
+										<strong>精神分裂症</strong>|
+										<strong>老年痴呆</strong>|
+										<strong>中风</strong>|
+										<strong>神经性疼痛</strong>
+									</dd>
+								</dl>
+								<dl>
+									<dt><b>内分泌科</b></dt>
+									<dd>
+										<strong>糖尿病</strong>|
+										<strong>甲状腺疾病</strong>|
+										
+									</dd>
+								</dl>
+							</div>
+							<div id="category4">
+								<img src="images/main_1fpic5.jpg" alt="" />
+								<img src="images/main_1fpic6.jpg" alt="" />
+								
+							</div>
 						</div>
 							
 					</li>
@@ -270,27 +420,27 @@
 						<div>
 							<ul>
 								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
+								<li><a href="">男科</a></li>
+								<li><a href="">心脑血管</a></li>
+								<li><a href="">眼耳鼻喉</a></li>
+								<li><a href="">散光验配</a></li>
 							</ul>
 						</div>
 						<div>
 							<ul>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
+								<li><a href="">肿瘤</a></li>
+								<li><a href="">滋补保养</a></li>
+								<li><a href="">肝胆科</a></li>
+								<li><a href="">神经科</a></li>
+								<li><a href="">呼吸科</a></li>
 							</ul>
 						</div>
 						<div>
 							<ul>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
-								<li><a href="">消化科</a></li>
+								<li><a href="">风湿骨科</a></li>
+								<li><a href="">皮肤科</a></li>
+								<li><a href="">医疗器械</a></li>
+								<li><a href="">妇科</a></li>
 								<li><a href="">消化科</a></li>
 							</ul>
 						</div>
@@ -360,12 +510,1052 @@
 	
 	<!--main----------------------------------------------------------->
 	<div id="content">
-		<ul>
+		<ul id="content_list">
 			<li>
-				<div id="main_wrap">
-		<div id="main">
+				<div class="main_wrap">
+			<div id="main">
 			<div id="main_left">
 				<div id="main_left_top">1F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+			<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">2F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">3F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">4F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">5F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">6F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">7F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">8F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">9F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">10F　家庭常备药</div>
+				<ul class="main_left_list1">
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎癣症</a></li>
+					<li><a href="">补血补齐</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保肝护肝</a></li>
+				</ul>
+				<ul class="main_left_list2">
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">不孕症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+			<div id="main_right">
+				<div class="main_right_top">
+					<div class="main_right_top_banner">
+						<div class="main_list">
+							<ul>
+								<li style="background: url(images/main_1fpic1.jpg);">			
+								</li>
+								<li style="background: url(images/main_1fpic2.jpg);">					
+								</li>
+								<li style="background: url(images/main_1fpic3.jpg);">						
+								</li>
+							
+							</ul>
+						</div>
+						<div class="main_nav">
+							<ul class="select1">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_right_top_pic">
+						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
+						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="main_right_bottom">
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic4.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【保心良药】益安宁丸</a></dd>
+							<dd>¥790.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic5.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
+							<dd>¥10.5</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic6.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
+							<dd>¥38.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic7.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
+							<dd>¥812.0</dd>
+						</dl>
+						<dl>
+							<dt>
+								<a href="">
+									<img src="images/main_1fpic8.jpg" alt="" />
+								</a>
+							</dt>
+							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
+							<dd>¥99.0</dd>
+						</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+			</li>
+			<li>
+				<div class="main_wrap">
+		<div id="main">
+			<div id="main_left">
+				<div id="main_left_top">11F　家庭常备药</div>
 				<ul class="main_left_list1">
 					<li><a href="">补肾</a></li>
 					<li><a href="">皮炎癣症</a></li>
@@ -469,424 +1659,8 @@
 	</div>
 	
 	
-	<!--2f------------------------------------>
-	<!--main----------------------------------------------------------->
-	<!--<div id="main_wrap">
-		<div id="main">
-			<div id="main_left">
-				<div id="main_left_top">2F　家庭常备药</div>
-				<ul class="main_left_list1">
-					<li><a href="">补肾</a></li>
-					<li><a href="">皮炎癣症</a></li>
-					<li><a href="">补血补齐</a></li>
-					<li><a href="">腹泻</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">青春痘</a></li>
-					<li><a href="">保肝护肝</a></li>
-				</ul>
-				<ul class="main_left_list2">
-					<li><a href="">减肥瘦身</a></li>
-					<li><a href="">不孕症</a></li>
-					<li><a href="">眼干眼涩</a></li>
-					<li><a href="">感冒发烧</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">胃炎</a></li>
-					<li><a href="">增强抵抗力</a></li>
-				</ul>
-			</div>
-			<div id="main_right">
-				<div class="main_right_top">
-					<div class="main_right_top_banner">
-						<div class="main_list">
-							<ul>
-								<li style="background: url(images/main_1fpic1.jpg);">			
-								</li>
-								<li style="background: url(images/main_1fpic2.jpg);">					
-								</li>
-								<li style="background: url(images/main_1fpic3.jpg);">						
-								</li>
-							
-							</ul>
-						</div>
-						<div class="main_nav">
-							<ul class="select1">
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="main_right_top_pic">
-						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
-						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="main_right_bottom">
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic4.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【保心良药】益安宁丸</a></dd>
-							<dd>¥790.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic5.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
-							<dd>¥10.5</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic6.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
-							<dd>¥38.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic7.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
-							<dd>¥812.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic8.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
-							<dd>¥99.0</dd>
-						</dl>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!--3f---------------------------------------->
-	<!--main----------------------------------------------------------->
-	<div id="main_wrap">
-		<div id="main">
-			<div id="main_left">
-				<div id="main_left_top">3F　家庭常备药</div>
-				<ul class="main_left_list1">
-					<li><a href="">补肾</a></li>
-					<li><a href="">皮炎癣症</a></li>
-					<li><a href="">补血补齐</a></li>
-					<li><a href="">腹泻</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">青春痘</a></li>
-					<li><a href="">保肝护肝</a></li>
-				</ul>
-				<ul class="main_left_list2">
-					<li><a href="">减肥瘦身</a></li>
-					<li><a href="">不孕症</a></li>
-					<li><a href="">眼干眼涩</a></li>
-					<li><a href="">感冒发烧</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">胃炎</a></li>
-					<li><a href="">增强抵抗力</a></li>
-				</ul>
-			</div>
-			<div id="main_right">
-				<div class="main_right_top">
-					<div class="main_right_top_banner">
-						<div class="main_list">
-							<ul>
-								<li style="background: url(images/main_1fpic1.jpg);">			
-								</li>
-								<li style="background: url(images/main_1fpic2.jpg);">					
-								</li>
-								<li style="background: url(images/main_1fpic3.jpg);">						
-								</li>
-							
-							</ul>
-						</div>
-						<div class="main_nav">
-							<ul class="select1">
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="main_right_top_pic">
-						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
-						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="main_right_bottom">
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic4.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【保心良药】益安宁丸</a></dd>
-							<dd>¥790.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic5.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
-							<dd>¥10.5</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic6.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
-							<dd>¥38.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic7.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
-							<dd>¥812.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic8.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
-							<dd>¥99.0</dd>
-						</dl>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--4f-------------------------------------------------------->
-	<!--main----------------------------------------------------------->
-	<div id="main_wrap">
-		<div id="main">
-			<div id="main_left">
-				<div id="main_left_top">4F　家庭常备药</div>
-				<ul class="main_left_list1">
-					<li><a href="">补肾</a></li>
-					<li><a href="">皮炎癣症</a></li>
-					<li><a href="">补血补齐</a></li>
-					<li><a href="">腹泻</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">青春痘</a></li>
-					<li><a href="">保肝护肝</a></li>
-				</ul>
-				<ul class="main_left_list2">
-					<li><a href="">减肥瘦身</a></li>
-					<li><a href="">不孕症</a></li>
-					<li><a href="">眼干眼涩</a></li>
-					<li><a href="">感冒发烧</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">胃炎</a></li>
-					<li><a href="">增强抵抗力</a></li>
-				</ul>
-			</div>
-			<div id="main_right">
-				<div class="main_right_top">
-					<div class="main_right_top_banner">
-						<div class="main_list">
-							<ul>
-								<li style="background: url(images/main_1fpic1.jpg);">			
-								</li>
-								<li style="background: url(images/main_1fpic2.jpg);">					
-								</li>
-								<li style="background: url(images/main_1fpic3.jpg);">						
-								</li>
-							
-							</ul>
-						</div>
-						<div class="main_nav">
-							<ul class="select1">
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="main_right_top_pic">
-						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
-						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="main_right_bottom">
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic4.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【保心良药】益安宁丸</a></dd>
-							<dd>¥790.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic5.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
-							<dd>¥10.5</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic6.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
-							<dd>¥38.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic7.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
-							<dd>¥812.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic8.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
-							<dd>¥99.0</dd>
-						</dl>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--5f----------------------------------------------->
-	<!--main----------------------------------------------------------->
-	<div id="main_wrap">
-		<div id="main">
-			<div id="main_left">
-				<div id="main_left_top">5F　家庭常备药</div>
-				<ul class="main_left_list1">
-					<li><a href="">补肾</a></li>
-					<li><a href="">皮炎癣症</a></li>
-					<li><a href="">补血补齐</a></li>
-					<li><a href="">腹泻</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">青春痘</a></li>
-					<li><a href="">保肝护肝</a></li>
-				</ul>
-				<ul class="main_left_list2">
-					<li><a href="">减肥瘦身</a></li>
-					<li><a href="">不孕症</a></li>
-					<li><a href="">眼干眼涩</a></li>
-					<li><a href="">感冒发烧</a></li>
-					<li><a href="">鼻炎</a></li>
-					<li><a href="">前列腺炎</a></li>
-					<li><a href="">胃炎</a></li>
-					<li><a href="">增强抵抗力</a></li>
-				</ul>
-			</div>
-			<div id="main_right">
-				<div class="main_right_top">
-					<div class="main_right_top_banner">
-						<div class="main_list">
-							<ul>
-								<li style="background: url(images/main_1fpic1.jpg);">			
-								</li>
-								<li style="background: url(images/main_1fpic2.jpg);">					
-								</li>
-								<li style="background: url(images/main_1fpic3.jpg);">						
-								</li>
-							
-							</ul>
-						</div>
-						<div class="main_nav">
-							<ul class="select1">
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="main_right_top_pic">
-						<a href=""><img src="images/1f_1.jpg" alt="" /></a>
-						<a href=""><img src="images/1f_2.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="main_right_bottom">
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic4.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【保心良药】益安宁丸</a></dd>
-							<dd>¥790.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic5.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【美山】 羚羊清肺颗粒 ...</a></dd>
-							<dd>¥10.5</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic6.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【凯妮汀】克霉唑阴道...</a></dd>
-							<dd>¥38.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic7.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【福牌阿胶】 阿胶 250g</a></dd>
-							<dd>¥812.0</dd>
-						</dl>
-						<dl>
-							<dt>
-								<a href="">
-									<img src="images/main_1fpic8.jpg" alt="" />
-								</a>
-							</dt>
-							<dd><a href="">【艾丽】奥利司他胶囊 ...</a></dd>
-							<dd>¥99.0</dd>
-						</dl>
-				</div>
-			</div>
-		</div>
-	</div>-->
-	
+
+
 	<!--footer_friendlylink--------------------------------------------->
 	<div id="footer_friendlylink_wrap">
 		<div id="footer_friendlylink">

@@ -18,7 +18,8 @@ var flag = true;
 						$("#floorNav").fadeOut();
 					}
 					
-					$("#main_left_top").each(function(){
+					$("#content_list>li").each(function(){
+						console.log($("#content_list>li").length);
 						if(scrollTop >= $(this).offset().top - $(this).outerHeight()/2){
 							console.log(scrollTop);
 							//console.log($(this).offset().top);
@@ -33,7 +34,7 @@ var flag = true;
 				flag = false;
 				var index = $(this).index();
 				$(this).addClass("hover").siblings().removeClass("hover");
-				$("html,body").animate({"scrollTop":$("#content li").eq(index).offset().top},500,function(){
+				$("html,body").animate({"scrollTop":$("#content_list>li").eq(index).offset().top},500,function(){
 					flag = true;
 				});
 				
@@ -50,10 +51,56 @@ var flag = true;
 	
 	
 	
+	$("#side_to_top").click(function(){
+		console.log("aa");
+				flag = false;
+				$("html,body").animate({"scrollTop":0},500,function(){
+					flag = true;
+				});
+				
+			})
+	
+	
+	
+	
+
+	//商品列表
+	
+	$.get("http://datainfo.duapp.com/shopdata/getclass.php",function(data){
+						data = JSON.parse(data);
+						console.log(data);
+						var str = "";
+						$.each(data,function(index,item){
+							str += `
+					<a href="html/productslist.html?classID=${item.classID}">${item.className}</a>`			
+				
+						})
+						$("#row_list").html(str);
+					})
+	
+	
+	
 	
 		
 		
 	//搜索
+	
+	$(".search_goods").keyup(function(){
+		console.log("aa");
+		var search_val = $(".search_goods").val();
+		$.getJSON("https://suggest.taobao.com/sug?code=utf-8&q="+search_val+"&_ksTS=1528371119980_296&callback=?&area=c2c&bucketid=7",function(data){
+		console.log(data);
+		var str = "";
+		for(var i=0;i<data.result.length;i++){
+			str +=`<li><a href="">${data.result[i][0]}</a></li>`
+			$("#search_list").show();	
+		}
+		$("#search_list").html(str);
+	})
+		$(".search_goods").blur(function(){
+			$("#search_list").hide();
+		})
+	})
 	
 	
 	
